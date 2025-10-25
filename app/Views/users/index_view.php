@@ -18,11 +18,14 @@
     a{
         text-decoration: none;
         color:White;
-        display:block;
+        display:inline-block;
+        
     }
     #create{
         background-color:rgb(0, 0, 128);
         padding:10px;
+        
+        
         
     }
     table{

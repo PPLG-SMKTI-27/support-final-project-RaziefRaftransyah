@@ -3,7 +3,7 @@
 <head>
     <title>Edit Pengguna</title>
 </head>
-<body>
+<body style="background-color:rgb(140, 146, 172);">
     <h2>Edit Data Pengguna</h2>
     <form method="POST" enctype="multipart/form-data" action="">
         Nama: <input type="text" name="name" value="<?= $user['name']; ?>" required><br><br>

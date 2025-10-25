@@ -3,12 +3,12 @@
 <head>
     <title>Detail Pengguna</title>
 </head>
-<body>
+<body style="background-color:rgb(140, 146, 172);">
     <h2>Detail Pengguna</h2>
 
     <img src="public/uploads/<?= htmlspecialchars($user['photo']); ?>" 
          width="120" ><br><br>
-<div>
+<div >
     <b>Nama:</b><?= htmlspecialchars($user['name'])?><br>
     <b>Email:</b> <?= ($user['email']); ?><br>
     <b>Dibuat pada:</b> <?= ($user['created_at']); ?><br><br>
